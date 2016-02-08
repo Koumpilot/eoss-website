@@ -1,0 +1,77 @@
+#header {
+    position: relative;
+    background: #6FC;
+    width: 100%;
+    height: 6%;
+}
+
+#gradient_holder {
+    position: absolute;
+    height: auto;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 20vw;
+}
+
+@media screen and (max-width: 600px)
+{
+  #header {
+      height: 9%;
+  }
+
+  #gradient_holder {
+      display: none;
+  }
+}
+
+#menu {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    background-color: #CFC;
+    font-family: "Avenir Next", "Century Gothic W15", sans-serif;
+}
+
+#menu ul {
+    position: relative;
+    float: left;
+    left: -50%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu a {
+    display: block;
+    padding: 8px;
+    background-color: #CFC;
+    color: #F06;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: #9FC;
+}
+
+#menu a:active {
+    background-color: #6FC;
+}
+
+#main {
+    margin: 1vw;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, "Liberation Sans", sans-serif;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
